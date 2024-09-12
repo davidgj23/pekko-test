@@ -1,0 +1,11 @@
+-Dfile.encoding=UTF8
+-Xss512m
+-Xmx2048m
+-XX:ReservedCodeCacheSize=256m
+-XX:+TieredCompilation
+-XX:-UseGCOverheadLimit
+-XX:+CMSClassUnloadingEnabled
+-XX:+UseConcMarkSweepGC
+-XX:MaxInlineLevel=20
+-XX:MaxInlineSize=270
+-XX:MaxTrivialSize=12
